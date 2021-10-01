@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Now You Can Chat With The People You Know</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+    <button id="Exit1" onclick="logOut()">EXIT-----></button>
+    <center>
+        <h1>Now You Can Chat With The People You Know<sup><img id="Icon1" src="Icon.PNG"></sup></h1>
+        <div id="room"></div>
+    </center>
+    <div>
+        <label>Type your message right here:</label>
+        <input type="text" id="mes">
+        <button id="send" onclick="send()">SEND</button>
+    </div>
+</div>
+<script src="main3.js"></script>
+</body>

@@ -1,0 +1,24 @@
+#Welcome{
+    height: 200px;
+    width: 600px;
+}
+body{
+    font-family:Agency FB;
+    color:burlywood;
+}
+#RoomName{
+    width: 40%;
+}
+#three{
+    height: 100px;
+    width: 100px;
+}
+#room{
+    background-color:rgb(250, 221, 183);
+    align-items: center;
+    width: 60%;
+    height: 300px;
+    border: 10px;
+    border-color:burlywood;
+    border-style:groove;
+}

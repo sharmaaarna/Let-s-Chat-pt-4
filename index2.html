@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>CHAT WITH PEOPLE</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <button id="Exit" onclick="logOut()">EXIT-----></button>
+        <center>
+            <sup><img id="two" src="2.PNG"></sup><img id="Welcome" src="Welcome.PNG">
+            <br>
+            <h1>Make Your Room So You Chat<sup><img id="Icon" src="Icon.PNG"></sup></h1>
+            <h4>#Make Room</h4>
+            <input type="text" id="RoomName" placeholder="#Room Name">
+            <br><br>
+            <button id="Make" onclick="AddRoom()">Make Room</button>
+            <br><br>
+            <h2>#ROOM</h2>
+            <div id="room"></div>
+        </center>
+        <script src="main2.js"></script>
+    </body>
+</html>

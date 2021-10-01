@@ -1,0 +1,27 @@
+body{
+    background-color:white;
+    color:burlywood;
+    font-family: Berlin Sans FB;
+}
+
+#E_Logo{
+    width: 88px;
+    height: 100px;
+    margin-left: -15px;
+}
+
+#room{
+    background-color:bisque;
+    text-align: center;
+    float: none;
+    border-radius: 10px;
+}
+
+.user_tick{
+    height: 50px;
+    width: 50px;
+}
+
+#mes{
+    width: 70%;
+}

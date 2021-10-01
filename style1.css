@@ -1,0 +1,40 @@
+#Capture{
+    width: 88px;
+    height: 100px;
+    margin-left: -15px;
+}
+body{
+    background-image:url("thisOne.jpg") ;
+    background-repeat:no-repeat;
+    background-size: 740px 777px;
+    background-position-x: -1%;
+    color:rgb(231, 196, 149);
+}
+#Capture11{
+    width: 50px;
+    height: 50px;
+}
+#IDK{
+    width: 1300px;
+    text-align:right;
+}
+#Username{
+    font-size:large;
+    color:burlywood;
+}
+#textUserName{
+    width: 300px;
+}
+#LogIn{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color:whitesmoke;
+    background-color: rgb(250, 202, 138);
+
+}
+#IDKA{
+    font-family: Agency FB;
+    font-size: 40px;
+    color:burlywood;
+}
